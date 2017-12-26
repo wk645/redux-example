@@ -15,7 +15,9 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-weight: normal;
+  padding: 10px;
+  font-size: 50px;
 }
 
 .App-intro {

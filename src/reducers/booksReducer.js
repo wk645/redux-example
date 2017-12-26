@@ -16,7 +16,3 @@ export function booksReducer(state = {
 }
 
 export default booksReducer
-
-// case "REMOVE_BOOK":
-// const filteredArray = state.list.filter((book) => book.title !== action.payload)
-// return Object.assign({}, state, {list: filteredArray})
