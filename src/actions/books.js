@@ -11,3 +11,21 @@ export function removeBook(title) {
 		payload: title
 	}
 }
+
+export function fetchAPI() {
+	return function(dispatch) {
+		// dispatch({ type: ''});
+		return fetch('', {
+			method: 'get',
+			headers: {
+				"Content-Type": "application/json",
+				"Accept": "application/json"
+			}
+		})
+		.then(res => res.json())
+		.then(data => dispatch({ type: "", data}));
+		// .then(data => {
+			// dispatch({ type: "FETCHED_SOURCE", payload: json })
+		// })
+	}
+}

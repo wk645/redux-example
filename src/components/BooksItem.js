@@ -5,7 +5,7 @@ import { removeBook } from '../actions/books'
 
 const BooksItem = (props) => {
   
-  console.log(props)
+  // console.log(props)
   
   const handleClick = () => {
     // console.log(props.book)

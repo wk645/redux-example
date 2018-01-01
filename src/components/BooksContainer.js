@@ -19,8 +19,10 @@ class BooksContainer extends React.Component {
 }
 
 function mapStateToProps(state) {
+	console.log("booksContainer", state);
+
 	return {
-		books: state.books
+		books: state.books.booksList
 		// go to the store and do something with it. Return a new object. 
 	}
 }
